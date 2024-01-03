@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+}
+p, h1{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+p{
+    line-height: 20px;
+}
+body{
+    background-color: #0b1d26;
+    position: relative;
+}
+.header-first{
+    display: flex;
+    flex-direction: column;
+}
+.hori{
+    writing-mode: vertical-lr;
+}
+.header a{
+    color: white;
+    padding: 10px;
+}
+.menu div a:hover{
+    background-color: lightgray;
+    border-radius: 8px;
+    padding: 8px 15px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    padding-top: 200px; 
+}
+.header h1{
+    font-size: 4.8em;
+    padding: 20px 0px;
+}
+.header-third{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+}
+.header-third a{
+    text-align: end;
+    border-right: 4px solid rgba(255, 255, 255, 0.421);
+}
+.header-third a:hover{
+    text-align: end;
+    border-right: 4px solid rgb(255, 255, 255);
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+    padding: 30px 25px;
+}
+.menu a{
+    color: white;
+    font-size: 20px;
+    padding: 0px 15px;
+}
+.header {
+    position: relative;
+    z-index: 2;
+}
+.main-conteiner{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    padding-top: 520px;
+}
+.back {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 0;
+}
+.conteiner-first{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+span{
+    color: #e6c579;
+}
+.conteiner-first p{
+    padding: 15px 0px;
+}
+.con-first span:hover{
+    background-color: #e6c579;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.get img{
+    padding-bottom: 4px;
+}
+.con-first{
+    width: 50%;
+    padding: 100px;
+}
+.con-first h1{
+    font-size: 3.8em;
+    line-height: 70px;
+}
+.con-second{
+    width: 50%;
+}
+.con-second img{
+    width: 100%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px;
+}
+.main-first .con-first{
+    order: 1;
+}
+.main-first{
+    padding-left: 80px;
+}
+.main-first .con-first{
+    padding-right: 0px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+.footer2{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    padding: 8px 0px;
+    color: white;
+}
+.gr{
+    color: gray;
+}
+.txt{
+    text-align: justify;
+}
+.f1, .f2, .f3{
+    position: absolute;
+    font-size: 10em;
+    color: #23333b;
+}
+.f1 {
+    bottom: 2290px;
+    left: 230px;
+}
+.f3{
+    left: 230px;
+    bottom: 680px;
+}
+.f2{
+    left: 810px;
+    bottom: 1450PX;
+}
